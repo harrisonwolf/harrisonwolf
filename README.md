@@ -17,7 +17,8 @@ built through AI-agent orchestration under my architecture, testing, and evaluat
 **[boij-soderberg-engine](https://github.com/harrisonwolf/boij-soderberg-engine)** — C++, ~2,700 lines, hand-written
 A pure-Betti-table engine that tests two lower-bound conjectures and searches degree-sequence
 space for counterexamples; benchmarked up to ~50x faster than Macaulay2 (~30x typical) and
-completed searches Macaulay2 ran out of memory on. Produced the computation behind one of three main theorems in *Arithmetic in the Boij–Söderberg Cone* ([arXiv:2512.24320](https://arxiv.org/abs/2512.24320)).
+completed searches Macaulay2 ran out of memory on. Produced the computation behind one of three main theorems in
+*Arithmetic in the Boij–Söderberg Cone* ([arXiv:2512.24320](https://arxiv.org/abs/2512.24320)).
 
 **[ltx-studio](https://github.com/harrisonwolf/ltx-studio)** — Python, ~8,470 lines
 A local multi-model generative-video studio (LTX-Video + Wan-VACE) on a single 8GB GPU, with
