@@ -1,4 +1,3 @@
-```markdown
 ## Harrison Wolf
 
 C++ / math / algorithms engineer who architects, directs, and evaluates fleets of
@@ -9,6 +8,7 @@ outran the industry-standard CAS on a published math problem, and larger Python 
 built through AI-agent orchestration under my architecture, testing, and evaluation.
 
 **Focus:** research-engineer / applied-AI / agentic-coding / evals roles.
+**Portfolio:** [harrisonwolf.github.io](https://harrisonwolf.github.io) — projects, the paper, and how to reach me.
 
 ---
 
@@ -17,23 +17,27 @@ built through AI-agent orchestration under my architecture, testing, and evaluat
 **[boij-soderberg-engine](https://github.com/harrisonwolf/boij-soderberg-engine)** — C++, ~2,700 lines, hand-written
 A pure-Betti-table engine that tests two lower-bound conjectures and searches degree-sequence
 space for counterexamples; benchmarked up to ~50x faster than Macaulay2 (~30x typical) and
-completed searches Macaulay2 ran out of memory on. Produced the computation behind one of three main theorems in
-*Arithmetic in the Boij–Söderberg Cone* ([arXiv:2512.24320](https://arxiv.org/abs/2512.24320)).
+completed searches Macaulay2 ran out of memory on. Produced the computation behind one of three
+main theorems in *Arithmetic in the Boij–Söderberg Cone* ([arXiv:2512.24320](https://arxiv.org/abs/2512.24320)).
 
 **[ltx-studio](https://github.com/harrisonwolf/ltx-studio)** — Python, ~8,470 lines
-A local multi-model generative-video studio (LTX-Video + Wan-VACE) on a single 8GB GPU, with
-an in-process Qwen3-VL "creative director" agent that turns natural language into runnable
-configs, plus a quantitative eval layer (seam-MSE / drift telemetry + blind A/B harness).
+A local multi-model generative-video studio (LTX-Video + Wan) on a single 8GB GPU, with an
+in-process Qwen3-VL "creative director" agent that turns natural language into runnable configs,
+plus a quantitative eval layer (seam-MSE / drift telemetry + blind A/B harness). Its predecessor
+was an AnimateDiff pipeline I steered onto the same 8GB card — a PyTorch-SDPA attention backport,
+a from-scratch LCM scheduler, and a conv-aware LoRA merge.
 
 **[geo-map-v2](https://github.com/harrisonwolf/geo-map-v2)** — Python, ~30,000 lines (~14,600 in tests)
-A county-first real-estate analytics pipeline — canonical SQLite ledger, immutable monthly
-snapshots, strictly read-only serving runtime — built by orchestrating Codex + Claude across
-git worktrees under a governance-heavy AGENTS.md (prompt-injection defense, test-first discipline).
+A geospatial data platform — a county real-estate heatmap is its first vertical: a hashed canonical
+SQLite ledger with provenance, immutable monthly snapshots, a strictly read-only serving runtime, and
+a MapLibre-GL renderer over official county GIS (parcels, roads, ZIPs, schools, attendance zones).
+Built by orchestrating Codex + Claude across git worktrees under a governance-heavy AGENTS.md
+(prompt-injection defense, test-first discipline).
 
-**[animatediff-studio](https://github.com/harrisonwolf/animatediff-studio)** — Python
-A heavily upgraded local AnimateDiff pipeline for an 8GB Blackwell GPU: a PyTorch-SDPA attention
-backport with batch-chunking (RTX 50-series has no xformers kernels), a from-scratch LCM scheduler,
-conv-aware LoRA merge, FreeInit, sliding-window denoising for long clips, and tiled upscaling.
+**[planar-geometry-engine](https://github.com/harrisonwolf/planar-geometry-engine)** — C++, ~5,600 lines, standard library only
+A from-scratch computational-geometry engine built in vim + make: robust predicates with epsilon
+discipline, ear-clipping and Delaunay triangulation, Voronoi diagrams, and a hand-rolled TDD harness
+(14 suites). Core hand-written before my agent workflow; later upgrades AI-assisted.
 
 ---
 
@@ -52,19 +56,3 @@ conv-aware LoRA merge, FreeInit, sliding-window denoising for long clips, and ti
   algorithm-vs-language benchmarking methodology.
 
 **Reach me:** harrisonwolf42@gmail.com · [LinkedIn](https://www.linkedin.com/in/harrison-wolf-5aa216187)
-```
-
-<!--
-**harrisonwolf/harrisonwolf** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
