@@ -7,7 +7,7 @@ I build the parts that have to be right: a from-scratch C++ computation engine t
 outran the industry-standard CAS on a published math problem, and larger Python systems
 built through AI-agent orchestration under my architecture, testing, and evaluation.
 
-**Focus:** research-engineer / applied-AI / agentic-coding / evals roles.
+**Focus:** research-engineer / applied-AI / agentic-coding roles; commissions also.
 **Portfolio:** [harrisonwolf.github.io](https://harrisonwolf.github.io) — projects, the paper, and how to reach me.
 
 ---
