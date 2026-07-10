@@ -14,27 +14,27 @@ built through AI-agent orchestration under my architecture, testing, and evaluat
 
 ### Pinned work
 
-**[boij-soderberg-engine](https://github.com/harrisonwolf/boij-soderberg-engine)** — C++, ~2,700 lines, hand-written
+**[boij-soderberg-engine](https://github.com/harrisonwolf/boij-soderberg-engine)** — C++, hand-written
 A pure-Betti-table engine that tests two lower-bound conjectures and searches degree-sequence
-space for counterexamples; benchmarked up to ~50x faster than Macaulay2 (~30x typical) and
-completed searches Macaulay2 ran out of memory on. Produced the computation behind one of three
+space for counterexamples; benchmarked against Macaulay2 on task-matched searches (data and
+methodology in the repo), and it swept search sizes Macaulay2 can't practically reach. Produced the computation behind one of three
 main theorems in *Arithmetic in the Boij–Söderberg Cone* ([arXiv:2512.24320](https://arxiv.org/abs/2512.24320)).
 
-**[ltx-studio](https://github.com/harrisonwolf/ltx-studio)** — Python, ~8,470 lines
+**[ltx-studio](https://github.com/harrisonwolf/ltx-studio)** — Python
 A local multi-model generative-video studio (LTX-Video + Wan) on a single 8GB GPU, with an
 in-process Qwen3-VL "creative director" agent that turns natural language into runnable configs,
 plus a quantitative eval layer (seam-MSE / drift telemetry + blind A/B harness). Its predecessor
 was an AnimateDiff pipeline I steered onto the same 8GB card — a PyTorch-SDPA attention backport,
 a from-scratch LCM scheduler, and a conv-aware LoRA merge.
 
-**[geo-map-v2](https://github.com/harrisonwolf/geo-map-v2)** — Python, ~30,000 lines (~14,600 in tests)
+**[geo-map-v2](https://github.com/harrisonwolf/geo-map-v2)** — Python, roughly 1:1 code to tests
 A geospatial data platform — a county real-estate heatmap is its first vertical: a hashed canonical
 SQLite ledger with provenance, immutable monthly snapshots, a strictly read-only serving runtime, and
 a MapLibre-GL renderer over official county GIS (parcels, roads, ZIPs, schools, attendance zones).
 Built by orchestrating Codex + Claude across git worktrees under a governance-heavy AGENTS.md
 (prompt-injection defense, test-first discipline).
 
-**[planar-geometry-engine](https://github.com/harrisonwolf/planar-geometry-engine)** — C++, ~5,600 lines, standard library only
+**[planar-geometry-engine](https://github.com/harrisonwolf/planar-geometry-engine)** — C++, standard library only
 A from-scratch computational-geometry engine built in vim + make: robust predicates with epsilon
 discipline, ear-clipping and Delaunay triangulation, Voronoi diagrams, and a hand-rolled TDD harness
 (14 suites). Core hand-written before my agent workflow; later upgrades AI-assisted.
