@@ -38,15 +38,15 @@ discipline, ear-clipping and Delaunay triangulation, Voronoi diagrams, and a han
 ### What I actually do
 
 - **Agentic-coding orchestration** — I architect, direct, test, and evaluate AI coding agents
-  (Codex, Claude) across parallel worktrees with phase plans and governance rules. The large
+  (Codex, Claude, etc.) across parallel worktrees with phase plans and governance rules. The large
   systems above are AI-built under my direction; my differentiator is the judgment, architecture,
   and testing that make that trustworthy.
-- **Agentic-coding evaluation** — Software Engineer at DataAnnotation since Aug 2024, reviewing
-  agentic coding models: reasoning traces, code correctness, and failure modes. Selected for
-  the quality-review team.
+- **Agentic-coding evaluation** — Agentic Coding Model Evaluator / Analyst at DataAnnotation since Aug 2024, reviewing
+  agentic coding models: reasoning traces, code correctness, and failure modes. Selected based on performance for
+  the quality-review team, to audit and review other evaluators' and analysts' work.
 - **ML-systems + diffusion internals** — attention backports, custom schedulers, latent-space
   drift control, quantitative seam/drift evals on consumer hardware.
-- **Raw engineering** — the C++ engine is hand-written; overflow-avoiding early-exit, honest
+- **Raw engineering** — the C++ engines are hand-written at their core and hand-designed / architected; overflow-avoiding early-exit, honest
   algorithm-vs-language benchmarking methodology.
 
 **Reach me:** harrisonwolf42@gmail.com · [LinkedIn](https://www.linkedin.com/in/harrison-wolf-5aa216187)
