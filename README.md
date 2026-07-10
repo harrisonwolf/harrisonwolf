@@ -1,13 +1,7 @@
 ## Harrison Wolf
 
-C++ / math / algorithms engineer who architects, directs, and evaluates fleets of
-AI coding agents to ship real ML systems. Fresno, CA — available now.
+Research engineer building high-performance mathematical software and reliable agentic systems.
 
-I build the parts that have to be right: a from-scratch C++ computation engine that
-outran the industry-standard CAS on a published math problem, and larger Python systems
-built through AI-agent orchestration under my architecture, testing, and evaluation.
-
-**Focus:** research-engineer / applied-AI / agentic-coding roles; commissions also.
 **Portfolio:** [harrisonwolf.github.io](https://harrisonwolf.github.io) — projects, the paper, and how to reach me.
 
 ---
