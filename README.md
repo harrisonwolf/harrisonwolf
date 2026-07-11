@@ -46,7 +46,6 @@ epsilon handling, ear-clipping and Delaunay triangulation, Voronoi diagrams, and
   quality-review team based on performance; I audit other evaluators' and analysts' work.
 - **ML-systems + diffusion internals** — attention backports, custom schedulers, latent-space
   drift control, quantitative seam/drift evals on consumer hardware.
-- **Raw engineering** — the C++ engines are hand-written at their core and hand-designed / architected; overflow-avoiding early-exit, honest
-  algorithm-vs-language benchmarking methodology.
+- **Raw engineering** — every system is hand-architected by me and hand-designed every step of the way; the C++ engines are completely hand-written at their core and based on years of C and C++ coding before AI coding or ChatGPT even existed; overflow-avoiding early-exit, honest algorithm-vs-language benchmarking methodology, memory management, hardware limitations, etc.
 
 **Reach me:** harrisonwolf42@gmail.com · [LinkedIn](https://www.linkedin.com/in/harrison-wolf-5aa216187)
