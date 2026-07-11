@@ -41,7 +41,7 @@ epsilon handling, ear-clipping and Delaunay triangulation, Voronoi diagrams, and
   (Codex, Claude, etc.) across parallel worktrees with phase plans and governance rules. The large
   systems above are AI-built under my direction; what makes that work is the architecture, the
   test gates, and the evaluation around the agents.
-- **Agentic-coding evaluation** — Agentic Coding Model Evaluator / Analyst at DataAnnotation since Aug 2024, reviewing
+- **Agentic-coding evaluation** — Analyst, Agentic Coding & Software Engineering Models at DataAnnotation since Aug 2024, reviewing
   agentic coding models: reasoning traces, code correctness, and failure modes. Selected for the
   quality-review team based on performance; I audit other evaluators' and analysts' work.
 - **ML-systems + diffusion internals** — attention backports, custom schedulers, latent-space
