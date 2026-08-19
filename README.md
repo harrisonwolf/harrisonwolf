@@ -28,7 +28,7 @@ A local video-generation workflow built around two published open-weight backend
 
 - Developing a private governance layer for multi-agent software work: preregistered checks, retained run evidence, adversarial review, and operator-reserved decisions. The design and implementation remain in progress.
 - Evaluating frontier coding agents at DataAnnotation since August 2024: reasoning traces, code correctness, failure modes, containerized evaluation tasks, and quality review of other evaluators' work.
-- Maintaining the full private Nexora system while reverse-porting hardening discovered during extraction of the public Audit Edition.
+- Maintaining the full private Nexora system; its public Audit Edition exposes selected reliability mechanisms without publishing the product, data, interface, configuration, or private history.
 
 ## How I work
 
