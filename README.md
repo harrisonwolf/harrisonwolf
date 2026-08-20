@@ -2,7 +2,7 @@
 
 Computational research engineer designing and building AI governance and reliability systems.
 
-I build computational machinery for problems where getting an answer is not enough—you need a way to know whether the answer deserves to be believed. My work ranges from hand-written C++ engines for mathematical and geometric problems to larger systems whose architecture, interfaces, tests, and review gates I define before implementation, sometimes through coding-agent fleets.
+I build computational machinery for problems where getting an answer is not enough—you need a way to know whether the answer deserves to be believed. My work ranges from a hand-written C++ engine for mathematical research and a C++ geometry library with a hand-written foundation and later agent-assisted expansion, to larger systems whose architecture, interfaces, tests, and review gates I define before implementation, sometimes through coding-agent fleets.
 
 **Portfolio:** [harrisonwolf.github.io](https://harrisonwolf.github.io/) · **Contact:** [harrisonwolf42@gmail.com](mailto:harrisonwolf42@gmail.com) · **LinkedIn:** [harrison-wolf-5aa216187](https://www.linkedin.com/in/harrison-wolf-5aa216187/)
 
@@ -24,7 +24,7 @@ A local video-generation workflow built around two published open-weight backend
 
 ### [Planar geometry engine](https://github.com/harrisonwolf/planar-geometry-engine)
 
-A standard-library-only C++ workbench implementing geometric predicates, polygon operations, collision and containment queries, ear-clipping and Delaunay triangulation, Voronoi construction, and local viewers. The repository includes a hand-rolled test harness, boundary-case fixtures, and benchmark records.
+A standard-library-only C++ geometry workbench. By the last checkpoint before agent-authored C++ entered the tree, I had written all 2,383 tracked C++ lines across 33 source and header files: primitives, polygon operations, collision and containment, an original ear-clipping triangulator, random polygon generation, drivers, and early visualization support. I later directed and reviewed coding-agent work that substantially revised the ear clipper and implemented the current Bowyer–Watson Delaunay and Voronoi layers, the custom TDD harness and much of its suite coverage, browser viewers, benchmarks, and terrain applications.
 
 ## Current work
 
@@ -33,6 +33,6 @@ A standard-library-only C++ workbench implementing geometric predicates, polygon
 
 ## How I work
 
-On compact problems, I keep the implementation small enough to inspect directly and measure boundary cases, performance, and failure. On larger systems, I define the architecture, interfaces, and acceptance tests before implementation, then review the result against them. The algebra and geometry cores are hand-written; coding agents produced most of Nexora's Python implementation under my architecture, schemas, scoring, and test gates. Each project identifies external models, algorithms, and implementation boundaries.
+On compact problems, I keep the implementation small enough to inspect directly and measure boundary cases, performance, and failure. On larger systems, I define the architecture, interfaces, and acceptance tests before implementation, then review the result against them. The algebra core is hand-written; Planar’s mixed implementation history is documented in its project entry and repository. Coding agents produced most of Nexora's Python implementation under my architecture, schemas, scoring, and test gates. Each project identifies external models, algorithms, and implementation boundaries.
 
 I also take on a small number of paid [Agent Trust Reviews](https://harrisonwolf.github.io/#reviews): bounded technical second opinions on one AI-agent architecture, evaluation, persistent failure, or deployment decision.
